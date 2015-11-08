@@ -2,7 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     backports (3.6.7)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
     multi_json (1.11.2)
+    multi_xml (0.5.5)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -25,8 +30,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  httparty
   sinatra (~> 1.4, >= 1.4.6)
   sinatra-contrib
-
-BUNDLED WITH
-   1.10.6
